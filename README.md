@@ -15,7 +15,23 @@ This is intended to be held by a trustworthy decentralized organization.
 
 ### Encryptor
 
-Compile and copy [MyPub Encryptor](https://github.com/yepengding/MyPubEncryptor) into workspace.
+Compile and distribute [MyPub Encryptor](https://github.com/yepengding/MyPubEncryptor) into workspace.
+
+## Commands
+
+> Require encryptor in workspace
+
+### Compile
+
+```
+mvn package
+```
+
+### Run
+
+```
+java -jar *.jar
+```
 
 ## API
 
@@ -105,6 +121,15 @@ getFileByCID
 | readable | boolean |  | No |
 | uri | string (uri) |  | No |
 | url | string (url) |  | No |
+
+## MyPub Components
+
+* [MyPub Front + Chain Linker](https://github.com/yepengding/MyPub/tree/main/ui)
+* [MyPub Contract](https://github.com/yepengding/MyPub/tree/main/contracts)
+* MyPub Cipher
+    - [Encryptor](https://github.com/yepengding/MyPubEncryptor)
+    - [Decryptor](https://github.com/yepengding/MyPubDecryptor)
+* [MyPub Service](https://github.com/yepengding/MyPubService)
 
 ## Reference
 
